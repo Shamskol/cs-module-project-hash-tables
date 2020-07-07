@@ -22,6 +22,7 @@ class HashTable:
 
     def __init__(self, capacity):
         # Your code here
+        self.capacity = capacity
         
 
     def get_num_slots(self):
@@ -61,7 +62,7 @@ class HashTable:
 
 
     def djb2(self, key):
-        
+
         """
         DJB2 hash, 32-bit
 
