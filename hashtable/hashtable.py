@@ -22,10 +22,12 @@ class HashTable:
 
     def __init__(self, capacity):
         # Your code here
-
+        
 
     def get_num_slots(self):
+        
         """
+        
         Return the length of the list you're using to hold the hash
         table data. (Not the number of items stored in the hash table,
         but the number of slots in the main list.)
@@ -38,6 +40,7 @@ class HashTable:
 
 
     def get_load_factor(self):
+
         """
         Return the load factor for this hash table.
 
@@ -47,6 +50,7 @@ class HashTable:
 
 
     def fnv1(self, key):
+
         """
         FNV-1 Hash, 64-bit
 
@@ -57,6 +61,7 @@ class HashTable:
 
 
     def djb2(self, key):
+        
         """
         DJB2 hash, 32-bit
 
